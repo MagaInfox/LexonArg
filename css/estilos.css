@@ -288,3 +288,75 @@ header .fa-bars{
  }
 
  /* FIN Responsive */
+
+ /* clases para las recetas dulces*/
+
+ .dulces1 {
+    grid-area: miArea;
+    background-color: aquamarine !important;
+    
+}
+.dulces2 {
+    grid-area: miArea2;
+    background-color: aquamarine !important;
+}
+.dulces3 {
+    grid-area: miArea3;
+    background-color: aquamarine !important;
+
+}
+
+.dulces4{
+    grid-area: miArea4;
+    background-color: aquamarine !important;
+}
+.dulces5{
+    grid-area: miArea5;
+    background-color: aquamarine !important;
+}
+
+.dulces6{
+    grid-area: miArea6;
+    background-color: aquamarine !important;
+}
+
+.dulces7{
+    grid-area: miArea7;
+    background-color: aquamarine !important;
+}
+
+.dulces8{
+    grid-area: miArea8;
+    background-color: aquamarine !important;
+}
+.contenedor-dulces {
+    display: grid;
+    grid-template-areas: '. .'
+                         'miArea miArea'                     
+                         '. .'
+                         'miArea2 miArea2'
+                         '. .'                     
+                         'miArea3 miArea3'
+                         '. .'
+                         'miArea4 miArea4'                     
+                         '. .'
+                         'miArea5 miArea5'
+                         '. .'                     
+                         'miArea6 miArea6'
+                         '. .'
+                         'miArea7 miArea7'                     
+                         '. .'
+                         'miArea8 miArea8'
+                         ;
+    grid-gap: 10px;
+    background-color: #a9e7dd;
+    padding: 10px;
+    margin: 50px;
+}
+
+.contenedor-dulces > div {
+    background-color: azure;
+    text-align: left;
+    padding: 30px ;
+    font-size: 25px;
+}
