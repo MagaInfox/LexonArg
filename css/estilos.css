@@ -202,13 +202,24 @@ header .fa-bars{
 
 /* FIN de la seccion1 x2 */
 
+
+
 /* Comienzo de la seccion2 */
 
+/* FIN de la seccion2 */
 
 
 
-
-
+/* Comienzo del Footer */
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(0,0,0,.8);
+}
+/* FIN del Footer */
 
 
 
