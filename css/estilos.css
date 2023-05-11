@@ -359,15 +359,61 @@ footer{
                          '. .'
                          'miArea8 miArea8'
                          ;
-    grid-gap: 10px;
-    background-color: #a9e7dd;
-    padding: 10px;
+    grid-gap: 30px;
+    background-color: #c3fbff;
+    padding: 100px;
     margin: 50px;
+    border-radius: 55px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .contenedor-dulces > div {
     background-color: azure;
     text-align: left;
-    padding: 30px ;
-    font-size: 25px;
+    padding: 50px ;
+    font-size: 20px;
+    border-radius: 55px;
 }
+h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-style: oblique;
+    text-align: center;
+    padding: 30px;
+    margin: 80px;
+    }
+.barra3{
+    width: 500px;
+    height: 100px;
+    background-color: hotpink;
+    animation-name: cambiarColor3; /*cambiar a cambiarColor2*/
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin: 25px;
+    
+}
+
+@keyframes cambiarColor3 {
+    0% {background: antiquewhite; width: 500px;}         /* Primer fotograma */
+    25% {background: burlywood; width: 700px;}     /* Segundo fotograma */
+    50% {background: skyblue; width: 900px;}     /* Tercer fotograma */    
+    75% {background: mediumturquoise; width: 700px;}     /* Cuarto fotograma */
+    0% {background: rosybrown; width: 500px;}         /* Último fotograma */
+}
+@keyframes go-left-right {        /* dale un nombre: "go-left-right" */
+    from { left: 0px; }             /* animar desde la izquierda: 0px */
+    to { left: calc(100% - 50px); } /* animar a la izquierda: 100%-50px */
+  }
+
+.progress {
+    animation: go-left-right 15s infinite linear;
+    
+
+    position: relative;
+    width: 120px;
+    height: 100px;
+}
+/*fin clases recetas dulces*/
