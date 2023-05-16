@@ -421,7 +421,7 @@ h1{
 
 .progress {
     animation: go-left-right 15s infinite linear;
-    
+    border: lightblue solid;
 
     position: relative;
     width: 120px;
