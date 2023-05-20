@@ -215,20 +215,251 @@ header .fa-bars{
 
 
 
-/* Comienzo de la seccion2 */
+/* Comienzo del Form */
+.formulario {
+    box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+    background: #666;
+    max-width: 100%;
+	margin: auto;
+	padding: 20px;
+}
 
-/* FIN de la seccion2 */
+.formulario__label {
+	display: block;
+	font-weight: 700; /*negrita*/
+	padding: 10px;
+	cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 100%;	
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;	
+	margin-bottom: 0;
+	display: none; /*Acá, no me desaparecen los comentarios en Sublime text*/
+}
+
+.formulario__input-error-activo {
+	display: block; /*Recien acá, me desaparecen los comentarios en Sublime text, osea poner error-activo es condición necesaria para que se oculten los comentarios*/
+}
+
+/* Trabajamos sobre el ícono */
+.formulario__validacion-estado { 
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2; /*Esta sería la función equivalente a comabinar celda e Excel*/
+}
+
+.formulario__mensaje {
+    font-size: 1.2rem;
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0; /*Ubicamos el párrafo del mensaje de error en el centro (por defecto ya viene con un margen q lo ubica abajo)*/
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 50px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+    margin-top: 10px;
+	font-size: 14px;
+	color: #000;
+    font-weight: 700;
+    padding: 15px;
+    background-color: #119200;
+	display: none;	
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+
+/* --- Estilos para Validación --- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+/* --- Mediaqueries */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos,
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+	grid-column: 1;
+    }
+
+    .formulario__btn {
+    	width: 100%;
+    }
+}
+
+
+/* FIN del Form */
 
 
 
 /* Comienzo del Footer */
 footer{
+    background-color: #111;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
     text-align: center;
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 1rem;
-    margin: 2rem 0;
-    background: rgba(0,0,0,.8);
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
 /* FIN del Footer */
 
@@ -247,7 +478,7 @@ footer{
 
 /* Inicio 3 Responsive */
 
-@media (max-width:991px){
+@media (max-width:1200px){
    html{
     font-size: 55%;
    }
@@ -265,7 +496,7 @@ footer{
     
 }
 
-@media (max-width:768px){
+@media (max-width:881px){
     header .fa-bars{
        display: block; 
     }
@@ -295,6 +526,16 @@ footer{
 
     .home .contenido span{
         font-size: 2.5rem;
+    }
+
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
     }
 }
 

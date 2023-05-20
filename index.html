@@ -59,7 +59,7 @@
 
                 <div class="img-container">
                     <img src="img/Asado.png">
-                    <h3>Recetas Saladas</h3>
+                     <h3>Recetas Saladas</h3>
                 </div>
 
                 <div class="contenido">
@@ -73,7 +73,90 @@
         </section>
 
         <section class="introd">
-            <h1 class="subtitulo">Recetas...</h1>
+            <h1 class="subtitulo">Formulario de Contacto</h1>
+
+            <form action="" class="formulario" id="formulario">
+                <!-- GRUPO: APELLIDO -->
+                <div class="formulario__grupo" id="grupo__apellido">
+                    <label for="apellido" class="formulario__label">Apellido</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">El apellido tiene que ser de 4 a 8 caracteres y le tiene que gustar la cocina.</p>
+                </div>
+    
+                <!-- GRUPO: NOMBRE -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">El nombre tiene que ser de 4 a 8 caracteres y te tiene que gustar la cocina.</p>
+                </div>
+    
+                <!-- GRUPO: CONTRASEÑA 1 -->
+                <div class="formulario__grupo" id="grupo__password">
+                    <label for="password" class="formulario__label">Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input" name="password" id="password">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">La contraseña debe tener entre 4 y 6 dígitos</p>
+                </div>
+    
+                <!-- GRUPO: CONTRASEÑA 2 -->
+                <div class="formulario__grupo" id="grupo__password2">
+                    <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input" name="password2" id="password2">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">Ambas contraseñas deben ser iguales</p>
+                </div>
+    
+                <!-- GRUPO: CORREO ELECTRONICO -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electónico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Ingrese su correo">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">Ingrese bien su correo</p>
+                </div>
+    
+                <!-- GRUPO: Nº DE CELULAR -->
+                <div class="formulario__grupo" id="grupo__celular">
+                    <label for="celular" class="formulario__label">Celúlar</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="celular" id="celular" placeholder="Ingrese su Nº de celúlar">
+                        <i class="formulario__validacion-estado fa-solid fa-square-xmark"></i>
+                    </div>
+                    <p class="formulario__input-error">Ingrese el número sin espacios, sin el  0 de la caracteristica y sin el 15</p>
+    
+                </div>
+    
+                <!-- GRUPO: TERMINOS Y CONDICIONES -->
+                <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">Acepto los Terminos y Condiciones
+    
+                    </label>
+                </div>
+    
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error: </b>Por favor rellene bien los campos indicados</p>
+    
+                    
+                </div>
+    
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El Formulario se envio exitosamente</p>
+                </div>
+    
+            </form>
 
         
         </section>
