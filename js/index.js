@@ -24,18 +24,18 @@ document.querySelector("header").innerHTML = miHeader;
 let miFooter = `
 <div class="footerContainer">
             <div class="socialIcons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-google-plus"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/CHAYANNE/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/leomessi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/SpreenDMC" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@oficialgordillo?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@ImagineDragonsVEVO" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
             <div class="footerNav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/r.dulces.html">R.Dulces</a></li>
+                    <li><a href="/r.saladas.html">R.Saladas</a></li>
+                    <li><a href="/dato.c.html">D.Curioso</a></li>
                 </ul>
             </div>
         </div>
