@@ -154,7 +154,7 @@ header .fa-bars{
     text-align: center;
     color: #fff;
     padding: 10px 10px;
-    border-radius: 16px;
+    border-radius: 8px;
     background-color: #333333ea;
     border: 2px solid rgba(255, 255, 255, 0.552);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
@@ -212,7 +212,6 @@ header .fa-bars{
 }
 
 /* FIN de la seccion1 x2 */
-
 
 
 /* Comienzo del Form */
