@@ -625,6 +625,323 @@ footer{
         }
 /*fin clases recetas dulces*/
 
+/* Comienzo de recetas saladas */
+
+.Contenedor_01 { 
+    
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 1rem;
+    /*padding: 0.1rem;*/
+    justify-content: revert-layer;
+    margin: 20px;
+    background-color: aliceblue;
+    background-color: #CCD1D1; /* Color Oscuro */
+    border-radius: 16px; /* curvatura */
+    padding: 10px 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    border: 2px solid rgba(0, 0, 0, 0.552);
+    /*width: 100%;*/
+    /*font-size: 4.4rem;*/
+    /*text-align: center;*/
+    /*color: #fff;*/       
+    
+    grid-template-columns: auto auto;
+    /*column-gap: 5px;*/
+    gap: 15px;
+    grid-template-rows: auto auto;
+    /*height: 10vh;*/
+    justify-content: space-between;
+    
+}      
+
+    .salada_01{     /* MILANESA A AL NAPOLITANA */ 
+        border: solid;
+        margin-top: 90px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: black;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: large;
+        font-weight: bold;
+        
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        /*row-gap: 100px*/
+
+
+    }
+
+    .salada_02{
+        
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        
+    }
+
+    .salada_03{ 
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_04{    /* MATAMBRE ARROLLADO */
+        border: solid;
+        margin-top: 90px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: black;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: large;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        /*row-gap: 100px*/
+        
+    }
+
+    .salada_05{
+        
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+    }
+
+    .salada_06{
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_07{     /* PROVOLETA */
+        border: solid;
+        margin-top: 15px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: black;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: large;
+        font-weight: bold;
+        
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        /*row-gap: 100px*/
+    }
+
+    .salada_08{
+        
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        
+    }
+
+    .salada_09{     
+        
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_10{     /* LOCRO */
+        border: solid;
+        margin-top: 15px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: black;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: large;
+        font-weight: bold;
+        
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        /*row-gap: 100px*/
+    }
+
+    .salada_11{
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+    }
+
+    .salada_12{
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_13{
+        margin-top: 15px;
+        text-align: revert-layer;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+    }
+
+    .salada_14{     /*CHIPA GUAZÚ*/
+        
+        margin-top: 15px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        
+    }
+
+    .salada_15{
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_16{
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_17{     /*ASADO A LA PARRILLA*/
+                
+        margin-top: 15px;
+        text-align: center;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+        
+    }
+
+    .salada_18{
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+
+    .salada_19{
+        
+        margin-top: 15px;
+        text-align: left;
+        font-family:  sans-serif;
+        font-style: italic; /*Cursiva*/
+        color: #150803 ;
+        background-color: #F2F3F4; /*caja interior*/
+        font-size: medium;
+        font-weight: bold;
+        border: 3px solid #138D75;
+        border-radius: 16px;
+
+    }
+/* Fin de recetas saladas */
+
     /*comienzo animacion en pagina de Datos curiosos*/
 .barra3{
     width: 500px;
